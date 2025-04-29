@@ -5,7 +5,10 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 8071, // Specify the port here
+    port: 4002, // Specify the port here,
+    allowedHosts:[
+      "buddy.pharynxai.in"
+    ]
   },
-  base:"/nse_chatbot"
+  base:"/createjd",
 });
