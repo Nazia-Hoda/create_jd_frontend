@@ -11,6 +11,7 @@ async function getAnswer(question){
     method: 'post',
     maxBodyLength: Infinity,
     url: 'https://buddy.pharynxai.in/createjobdes/generate-jd',
+    // url : "http://127.0.0.1:4001/generate-jd",
     headers: { 
       'Content-Type': 'application/json'
     },
